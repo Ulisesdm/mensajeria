@@ -1,0 +1,244 @@
+#content {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI';
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+    /* 105,106,110 */
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.linea-row {
+    border-top: 1px #292c33 outset;
+    margin-top: 4px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+h5 {
+    color: #051542;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: #000;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1100;
+}
+
+.text {
+    font-size: 11px;
+    color: #1c41cc;
+}
+
+.btn.btn-light {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23), 0 2px 4px 0 rgba(0, 0, 0, 0.37);
+    height: 35px;
+    font-size: 11px;
+    color: #2843a7;
+}
+
+.btn.btn-azul {
+    background-color: #00135b;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23), 0 2px 4px 0 rgba(0, 0, 0, 0.37);
+    height: 35px;
+    font-size: 11px;
+}
+
+.btn.btn-azul:hover {
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.6), 0 17px 50px 0 rgba(0,0,0,0.6);*/
+    background-color: #2843a7;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23), 0 2px 9px 0 rgba(0, 0, 0, 0.37);
+}
+
+.thead {
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    color: #000000a6;
+}
+
+.tbody {
+    font-size: 10px;
+    font-family: 'Segoe UI';
+}
+
+.sticky-footer {
+    background-color: transparent;
+
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+
+.btn {
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 18%), 0 2px 3px 0 rgb(0 0 0 / 17%);
+
+}
+
+.btn:hover {
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.6), 0 17px 50px 0 rgba(0,0,0,0.6);*/
+
+}
+
+.btn.btn-red {
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #585858;
+
+}
+
+.btn.btn-red:hover {
+    background: rgb(140, 23, 23);
+    color: #fff;
+    font-size: 12px;
+}
+
+.btn.btn-gold {
+    background: #c96306;
+    color: #fff;
+    font-size: 11px;
+}
+
+.btn.btn-gold:hover {
+    background: #b55905;
+    color: #fff;
+    font-size: 11px;
+}
+
+.subir {
+    padding: 4px 10px;
+    background: #2843a7;
+    color: #fff;
+    border: 0px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23), 0 2px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
+.subir:hover {
+    color: #fff;
+    background: #00135b;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23), 0 2px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #70BBFA;
+    font-size: 14px;
+    color: #000;
+}
+
+input,
+select {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input,
+select:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #70BBFA;
+    font-size: 14px;
+    color: #000;
+}
+
+.letra {
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    color: #090c23;
+}
+
+.logoimg {
+    margin-left: -10px;
+    width: 100px
+}
+
+.logo {
+    width: 40px;
+}
+
+.datos {
+    font-size: 12px;
+    color: #1c41cc;
+}
+
+.timbres {
+    font-size: 13px;
+    color: #1c41cc;
+}
+
+.timbresn {
+    font-size: 12px;
+    color: #e74a3b;
+}
+
+.usuario {
+    color: #051542;
+    text-shadow: 1px 1px 1px #585858;
+}
+
+.titulo {
+    font-size: 11px !important;
+}
+
+.menu {
+    background-color: #6ce252;
+    font-size: 11px;
+    font-family: 'Segoe UI';
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.image-upload img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.imgRedonda {
+    border-radius: 25px;
+}
+
+.myAltRowClass {
+    background: #efefef;
+    border: 1px solid #DDDDDD;
+}

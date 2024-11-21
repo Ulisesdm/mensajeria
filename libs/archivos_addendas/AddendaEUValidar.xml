@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<eu:AddendaEU xmlns:eu="http://factura.envasesuniversales.com/addenda/eu">
+    <eu:TipoFactura>
+            <eu:IdFactura>Factura</eu:IdFactura>
+            <eu:Version>1.0</eu:Version>
+            <eu:FechaMensaje>2020-08-11</eu:FechaMensaje>
+        </eu:TipoFactura>
+        <eu:TipoTransaccion>
+            <eu:IdTransaccion>Con_Pedido</eu:IdTransaccion>
+            <eu:Transaccion>61R6083420</eu:Transaccion>
+        </eu:TipoTransaccion>
+        <eu:OrdenesCompra>
+            <eu:Secuencia consec="1">
+                <eu:IdPedido>4500710718</eu:IdPedido>
+                <eu:EntradaAlmacen>
+                    <eu:Albaran>5024343977</eu:Albaran>
+                </eu:EntradaAlmacen>
+            </eu:Secuencia>
+        </eu:OrdenesCompra>
+        <eu:Moneda>
+            <eu:MonedaCve>MXN</eu:MonedaCve>
+            <eu:TipoCambio>1.0000</eu:TipoCambio>
+            <eu:SubtotalM>3500.00</eu:SubtotalM>
+            <eu:TotalM>3920.00</eu:TotalM>
+            <eu:ImpuestoM>560.00</eu:ImpuestoM>
+        </eu:Moneda>
+        <eu:ImpuestosR>
+            <eu:BaseImpuesto>140.00</eu:BaseImpuesto> 
+        </eu:ImpuestosR>
+</eu:AddendaEU>

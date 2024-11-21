@@ -1,0 +1,59 @@
+[22-May-2023 19:20:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.cliente.php on line 31
+[22-May-2023 19:20:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.cliente.php on line 31
+[22-May-2023 21:40:08 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:40:08 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:43:33 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:43:33 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:44:19 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:44:19 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:44:28 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:44:28 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:44:36 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:44:36 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:45:13 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:45:13 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:46:13 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 21:46:13 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 22:35:03 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 22:35:03 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 13
+[22-May-2023 22:39:09 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:39:09 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:39:42 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:39:42 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:41:18 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:41:18 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:41:33 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[22-May-2023 22:41:33 UTC] PHP Notice:  file_get_contents(): read of 8192 bytes failed with errno=21 Is a directory in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.pagina.php on line 15
+[23-May-2023 16:43:52 UTC] PHP Notice:  Array to string conversion in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 8
+[23-May-2023 16:43:52 UTC] PHP Notice:  Undefined variable: Array in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 8
+[23-May-2023 16:43:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 8
+[23-May-2023 18:07:11 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:13 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:13 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:15 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:15 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:15 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:17 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:17 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:07:17 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:08:51 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:08:51 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:08:51 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:09:27 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:09:27 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:09:27 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:09:43 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:09:43 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:09:43 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:25 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:25 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:25 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:41 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:41 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:41 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:52 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:52 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 18:23:52 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 96
+[23-May-2023 19:59:55 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 101
+[23-May-2023 22:41:01 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 101
+[23-May-2023 22:43:37 UTC] PHP Notice:  Undefined variable: type_carousel in /home/trans198/public_html/Nuevo/sistema/Controllers/controller.slider.php on line 101

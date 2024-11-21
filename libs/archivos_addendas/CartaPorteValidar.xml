@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<cartaporte:CartaPorte xmlns:cartaporte="http://www.sat.gob.mx/CartaPorte" TranspInternac="No" Version="1.0" ViaEntradaSalida="01">
+                <cartaporte:Ubicaciones>
+                    <cartaporte:Ubicacion TipoEstacion="01" DistanciaRecorrida="20"><cartaporte:Origen FechaHoraSalida="0000-00-00T00:00:00" NombreRemitente="PATRICIO VILLELA VALDEZ" RFCRemitente="VIVP611105QMA"/>
+                       <cartaporte:Domicilio Calle="Guerrero" CodigoPostal="51216" Colonia="94029" Estado="15" Localidad="823" Municipio="823" NumeroExterior="625" Pais="MEX"/>
+                    </cartaporte:Ubicacion>
+                    <cartaporte:Ubicacion DistanciaRecorrida="20" TipoEstacion="01">
+                    <cartaporte:Destino FechaHoraProgLlegada="0000-00-00T00:00:00" NumRegIdTrib="123456789" ResidenciaFiscal="MEX"/>
+                    <cartaporte:Domicilio Calle="Acamaya" CodigoPostal="52176" Colonia="1862" Estado="MEX" Localidad="METEPEC" Municipio="035" NumeroExterior="21" Pais="151"/>
+                    </cartaporte:Ubicacion>
+                </cartaporte:Ubicaciones>
+                <cartaporte:Mercancias NumTotalMercancias="1"> <cartaporte:Mercancia BienesTransp="33dws" Cantidad="30" ClaveUnidad="2e1ds" Descripcion="calzadooo" Moneda="MXN" PesoEnKg="12" ValorMercancia="0"/> <cartaporte:AutotransporteFederal NombreAseg="Seguro" NumPermisoSCT="4356745343" NumPolizaSeguro="2342r352" PermSCT="TPAF01">
+                    <cartaporte:IdentificacionVehicular AnioModeloVM="2021" ConfigVehicular="C2R2" PlacaVM="666k66"/>
+                    <cartaporte:Remolques>
+                        <cartaporte:Remolque SubTipoRem="CTR004" Placa="2wqswqa"/>
+                    </cartaporte:Remolques>
+                    </cartaporte:AutotransporteFederal>
+                </cartaporte:Mercancias>
+                <cartaporte:FiguraTransporte CveTransporte="01">
+                    <cartaporte:Operadores><cartaporte:Operador NombreOperador="Karla Chavez" NumLicencia="a234567890" RFCOperador="CAGK960531LY5" ResidenciaFiscalOperador="MEX">
+                       <cartaporte:Domicilio Calle="Acamaya" CodigoPostal="52176" Colonia="0347" Estado="COA" Localidad="23" Municipio="004" NumeroExterior="21" Pais="MEX"/> </cartaporte:Operador>
+                    </cartaporte:Operadores>
+                </cartaporte:FiguraTransporte>
+                </cartaporte:CartaPorte>

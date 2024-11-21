@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid XML Studio Developer Edition (Trial) 9.1.3.3361 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns:eu="http://factura.envasesuniversales.com/addenda/eu" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://factura.envasesuniversales.com/addenda/eu" version="1.5" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="AddendaEU">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="TipoFactura" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="IdFactura" minOccurs="1" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:NMTOKEN">
+                                        <xs:enumeration value="Factura"/>
+                                        <xs:enumeration value="Nota_Credito"/>
+                                        <xs:enumeration value="Recibo_Honorarios"/>
+                                        <xs:enumeration value="Carta_Porte"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Version" type="xs:string" minOccurs="1" maxOccurs="1" fixed="1.0"/>
+                            <xs:element name="FechaMensaje" type="xs:date" minOccurs="1" maxOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="TipoTransaccion" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="IdTransaccion" minOccurs="1" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:NMTOKEN">
+                                        <xs:enumeration value="Con_Pedido"/>
+                                        <xs:enumeration value="Carta_Porte"/>
+                                        <xs:enumeration value="Consignacion"/>
+                                        <xs:enumeration value="Sin_Pedido"/>
+                                        <xs:enumeration value="Nota_Credito"/>
+                                        <xs:enumeration value="Anticipo"/>
+                                        <xs:enumeration value="Aduana"/>
+                                        <xs:enumeration value="General"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Transaccion" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="OrdenesCompra" minOccurs="0" maxOccurs="1" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Secuencia" minOccurs="1" maxOccurs="100">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="IdPedido" minOccurs="0" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:length value="10"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="EntradaAlmacen" minOccurs="1" maxOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Albaran" minOccurs="1" maxOccurs="100">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:length value="10"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="consec" type="xs:int"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Moneda" minOccurs="1" maxOccurs="1" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MonedaCve" minOccurs="1" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:NMTOKEN">
+                                        <xs:length value="3"/>
+                                        <xs:enumeration value="USD"/>
+                                        <xs:enumeration value="EUR"/>
+                                        <xs:enumeration value="MXN"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="TipoCambio" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="SubtotalM" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="TotalM" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="ImpuestoM" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ImpuestosR" minOccurs="0" maxOccurs="1" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="BaseImpuesto" minOccurs="1" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:fractionDigits value="2"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

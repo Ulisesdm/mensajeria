@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mabe:Factura xs:schemaLocation="https://recepcionfe.mabempresa.com/cfd/addenda/v1/mabev1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" referencia1="FLETE" ordenCompra="NA" fecha="2018-01-15" folio="4566" tipoDocumento="FACTURA" version="1.0" xmlns:mabe="https://recepcionfe.mabempresa.com/cfd/addenda/v1">
+<mabe:Moneda tipoCambio="1.0000" tipoMoneda="MXN"/>
+<mabe:Proveedor codigo="3000000"/>
+<mabe:Entrega plantaEntrega="D004"/>
+<mabe:Detalles>
+<mabe:Detalle importeSinIva="13937.25" precioSinIva="13937.25" cantidad="1" unidad="SER" descripcion="FLETE" codigoArticulo="FLETE" noLineaArticulo="1"/>
+<mabe:Detalle importeSinIva="1500.00" precioSinIva="1500.00" cantidad="1" unidad="SER" descripcion="MANIOBRA" codigoArticulo="MANIOBRA" noLineaArticulo="2"/>
+</mabe:Detalles>
+<mabe:Subtotal importe="15437.25"/>
+<mabe:Traslados>
+<mabe:Traslado importe="2469.96" tasa="0.16" tipo="IVA"/>
+</mabe:Traslados>
+<mabe:Retenciones>
+<mabe:Retencion importe="557.49" tasa="0.04" tipo="RET"/>
+</mabe:Retenciones>
+<mabe:Total importe="17349.72"/>
+</mabe:Factura>
+

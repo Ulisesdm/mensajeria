@@ -1,0 +1,2 @@
+o@gmail.com  contraseña 123<--usuario
+a@gmail.com  contraseña 123<--Administrador

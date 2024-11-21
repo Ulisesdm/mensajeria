@@ -1,0 +1,56 @@
+.input-group-text{
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+.select2{
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+.modal-header{
+	background: #08bc80;
+	color: #ffffff;
+}
+.modal-title{
+	color: #F2F2F2;
+}
+.btn.btn-success{
+	background-color: #08bc80;
+	font-size: 12px;
+  }
+  .btn.btn-primary{
+	background-color: #032872;
+	font-size: 12px;
+  }
+  .btn.btn-warning{
+	background-color: #e0be12;
+	font-size: 12px;
+  }
+  .btn.btn-danger{
+	background-color: #e74a3b;
+	font-size: 12px;
+  }
+  .btn.btn-default{
+	background-color: #e6e5e5;
+	font-size: 12px;
+	
+  }
+  .btn.btn-default:hover{
+	background-color: #dcdcdc;
+
+  }
+  .btn.btn-secondary{
+	background-color: #5c5c5c;
+	font-size: 12px;
+	color:#fff;
+	
+  }
+  .btn.btn-secondary:hover{
+	background-color: #414141;
+
+  }
+  /* 870202--> codigo de color de rojo obscuro*/
+  

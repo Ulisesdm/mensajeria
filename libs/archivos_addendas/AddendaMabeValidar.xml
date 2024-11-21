@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<cfdi:Addenda xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+                        <mabe:Factura xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:mabe="https://recepcionfe.mabempresa.com/cfd/addenda/v1" xs:schemaLocation="https://recepcionfe.mabempresa.com/cfd/addenda/v1 https://recepcionfe.mabempresa.com/cfd/addenda/v1/mabev1.xsd" referencia="na" ordenCompra="na" fecha="2021-12-10" folio="6544" tipoDocumento="FACTURA" version="1.0">
+                        <mabe:Moneda tipoCambio="1" tipoMoneda="MXN"/>
+                        <mabe:Proveedor codigo="E48"/>
+                        <mabe:Entrega plantaEntrega="65d"/>
+                        <mabe:Detalles><mabe:Detalle noLineaArticulo="1" importeSinIva="1.12" precioSinIva="1" cantidad="1" unidad="UN" descripcion="FLETE" codigoArticulo="78101800"/></mabe:Detalles>
+                        <mabe:Subtotal importe="1"/>
+                        <mabe:Traslados>
+                        <mabe:Traslado importe="1" tasa="1" tipo="IVA"/>
+                        </mabe:Traslados>
+                        <mabe:Retenciones>
+                        <mabe:Retencion importe="1" tasa="1" tipo="RET"/>
+                        </mabe:Retenciones>
+                        <mabe:Total importe="1"/>
+                        </mabe:Factura>
+                        </cfdi:Addenda>

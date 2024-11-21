@@ -1,0 +1,88 @@
+/* tabla jqgrid */
+
+.ui-th-ltr {
+    font-size: 13px;
+    height: 2px;
+    padding: -30px;
+}
+
+.ui-jqgrid-labels {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    border: inset 0pt;
+    border-bottom: 1px solid #00000026;
+}
+
+.table>thead>tr>th {
+    padding: 4px;
+    border: inset 0pt;
+    border-bottom: 1px solid #00000026;
+}
+
+.table>thead>tr>th.active {
+    background-color: #ffffff;
+    /* #85929E; */
+    color: #000000;
+}
+
+.ui-search-input>input {
+    height: 15px;
+    font-size: 13px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.ui-search-input>input:focus {
+    height: 15px;
+    font-size: 13px;
+    border-radius: 0px;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #70BBFA;
+    font-size: 14px;
+    color: #000;
+}
+
+.ui-search-input {
+    height: 15px;
+    font-size: 13px;
+    margin-top: 0%;
+    border: inset 0pt;
+    border-bottom: 1px solid #00000026;
+}
+
+.ui-jqgrid .ui-jqgrid-btable tbody tr.jqgrow td {
+    height: 10px;
+    font-size: 13px;
+    font-family: 'Segoe UI';
+    height: 20px;
+    color: #000000;
+    border: inset 0pt;
+    border-bottom: 1px solid #00000026;
+}
+
+.ui-jqgrid .ui-jqgrid-htable .ui-th-div {
+    height: 20px;
+    margin-top: 0px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+
+/* .ui-jqgrid .ui-jqgrid-htable .ui-th-div{
+  height: 45px;
+  margin-top: -14px;
+  margin-bottom: -12px;
+  display: inine-block;
+  font-size: 15px;
+} */
+
+
+/* tabla jqgrid */
